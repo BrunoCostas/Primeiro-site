@@ -1,0 +1,15 @@
+#esquerdo{
+    color: black;
+    background-color: aquamarine;
+    width: 45%;
+    height: 400px;
+    float: left;
+    }
+
+ #direito{
+    color: white;
+    background-color: darkolivegreen;  
+    width: 45%;
+    height: 400px;
+    float: right;
+    }

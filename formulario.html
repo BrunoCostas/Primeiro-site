@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+        <meta charset="UTF-8">
+    </head>
+    <body bgcolor="lightgrey">
+        <h2>Formulário</h2>
+        <form name="Form1" method="post" action="grave.jsp">
+            Nome:
+            <input type="text" placeholder="Digite seu nome" size="20" name="txtnome" maxlength="25">
+            <br>
+            Senha:
+            <input type="password" size="20" name="txtsenha" maxlength="25">
+            <br>
+            Mensagem: <br>
+            <textarea name="txtmensagem" cols="40" rows="6">  
+            </textarea>
+            <br>
+            Sexo:
+            <input type="radio" name="sexo" value="M">Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+            <br>
+            Revistas:
+            <input type="checkbox" name="revista" value="1">Exame
+            <input type="checkbox" name="revista" value="1">Veja
+            <input type="checkbox" name="revista" value="1">Info
+            <br>
+            Estado:
+            <select name="estado">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SC">Santa Catarina</option>
+            </select>
+            <br>
+            Data:
+            <input type="date" name="data">
+            <input type="time" name="time">
+            <input type="datetime-local" name="datetime-local">
+            <br>
+            <input type="submit" value="Salvar">
+            &nbsp;
+            <input type="reset" value="Limpar">
+        </form> 
+    </body>
+</html>

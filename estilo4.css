@@ -1,0 +1,28 @@
+body{
+    font-size: 20px;
+    font-family: Arial;
+    margin: 0;
+}
+
+nav{
+    background-color: dimgray;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    padding: 20px; ;
+}
+
+main{
+    margin-left: 240px;
+    padding: 20px;
+}
+
+nav a{  
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(51, 218, 230);
+    font-size: 20px;
+}
